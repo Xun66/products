@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/NYU-DevOps-Products-Squad/products/branch/main/graph/badge.svg?token=5NJ1GINBW6)](https://codecov.io/gh/NYU-DevOps-Products-Squad/products)
+
 # products
 Repo for the products team or NYU DevOps 2021 summer
 
@@ -13,11 +15,4 @@ Repo for the products team or NYU DevOps 2021 summer
 | Owner | String | OwnerID
 | Category | String | Product Category|
 
-## API Documentation
-### URLS
 
- |                 URL                 | HTTP Method |                         Description                          |
-| :---------------------------------: | :---------: | :----------------------------------------------------------: |
-|              /api/products              |   **GET**   |              Returns a list all of the products              |
-|           /api/products/{id}            |   **GET**   |             Returns the product with a given id              |
-|       /api/products/{id}/purchase       |  **POST**   | purchases the product with the corresponding id by adding it to user's shopping cart |
